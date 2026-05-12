@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewsletterTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Smoke Tests(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.automation.tests.NewsletterTest">
+        <methods>
+          <include name="testDismissReturnsToSignupCard"/>
+          <include name="testSuccessCardHiddenOnLoad"/>
+          <include name="testValidEmailShowsSuccessCard"/>
+          <include name="testInvalidEmailShowsError"/>
+          <include name="testEmptyEmailShowsError"/>
+        </methods>
+      </class> <!-- com.automation.tests.NewsletterTest -->
+    </classes>
+  </test> <!-- Smoke Tests(failed) -->
+  <test thread-count="5" name="Regression Tests(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.automation.tests.NewsletterTest">
+        <methods>
+          <include name="testErrorClearsOnValidInput"/>
+          <include name="testSignupCardHiddenAfterSubscribe"/>
+          <include name="testErrorMessageText"/>
+          <include name="testInvalidEmailSetsErrorStyle"/>
+          <include name="testSuccessCardShowsCorrectEmail"/>
+        </methods>
+      </class> <!-- com.automation.tests.NewsletterTest -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+</suite> <!-- Failed suite [NewsletterTestSuite] -->

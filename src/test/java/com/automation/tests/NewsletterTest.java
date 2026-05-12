@@ -24,7 +24,7 @@ public class NewsletterTest {
      * Pass -Dheadless=true when running in CI/CD.
      */
     private static final boolean HEADLESS = Boolean.parseBoolean(
-        System.getProperty("headless", "false")
+            System.getProperty("headless", "false")
     );
 
     /** Page object for the sign-up card. */
@@ -35,17 +35,23 @@ public class NewsletterTest {
     /**
      * Opens a fresh browser and navigates to the app before each test.
      */
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() {
+        // 1. start browser
         DriverManager.initDriver(HEADLESS);
+
+        // 2. create page object AFTER driver is ready
         signupPage = new SignupPage(DriverManager.getDriver());
+
+        // 3. navigate to app
         signupPage.open(URL);
     }
 
     /**
      * Quits the browser after each test to keep tests independent.
+     * alwaysRun = true ensures cleanup even if the test fails.
      */
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         DriverManager.quitDriver();
     }

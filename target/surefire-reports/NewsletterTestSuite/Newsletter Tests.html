@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>TestNG:  Newsletter Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Newsletter Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 12 19:29:29 CAT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>30 seconds (30648 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.tests.NewsletterTest.testValidEmailShowsSuccessCard()'><b>testValidEmailShowsSuccessCard</b><br>Test class: com.automation.tests.NewsletterTest<br>Test method: Valid email should show success card</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.NewsletterTest@1afd44cb</td></tr>
+<tr>
+<td title='com.automation.tests.NewsletterTest.testSuccessCardShowsCorrectEmail()'><b>testSuccessCardShowsCorrectEmail</b><br>Test class: com.automation.tests.NewsletterTest<br>Test method: Success card should display the submitted email</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.NewsletterTest@1afd44cb</td></tr>
+<tr>
+<td title='com.automation.tests.NewsletterTest.testSuccessCardHiddenOnLoad()'><b>testSuccessCardHiddenOnLoad</b><br>Test class: com.automation.tests.NewsletterTest<br>Test method: Success card should be hidden on page load</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.NewsletterTest@1afd44cb</td></tr>
+<tr>
+<td title='com.automation.tests.NewsletterTest.testInvalidEmailSetsErrorStyle()'><b>testInvalidEmailSetsErrorStyle</b><br>Test class: com.automation.tests.NewsletterTest<br>Test method: Invalid email should put input in error style</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.NewsletterTest@1afd44cb</td></tr>
+<tr>
+<td title='com.automation.tests.NewsletterTest.testInvalidEmailShowsError()'><b>testInvalidEmailShowsError</b><br>Test class: com.automation.tests.NewsletterTest<br>Test method: Invalid email should show error message</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.NewsletterTest@1afd44cb</td></tr>
+<tr>
+<td title='com.automation.tests.NewsletterTest.testErrorMessageText()'><b>testErrorMessageText</b><br>Test class: com.automation.tests.NewsletterTest<br>Test method: Error message text should be correct</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.NewsletterTest@1afd44cb</td></tr>
+<tr>
+<td title='com.automation.tests.NewsletterTest.testSignupCardHiddenAfterSubscribe()'><b>testSignupCardHiddenAfterSubscribe</b><br>Test class: com.automation.tests.NewsletterTest<br>Test method: Signup card should be hidden after subscribe</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.NewsletterTest@1afd44cb</td></tr>
+<tr>
+<td title='com.automation.tests.NewsletterTest.testEmptyEmailShowsError()'><b>testEmptyEmailShowsError</b><br>Test class: com.automation.tests.NewsletterTest<br>Test method: Empty email should show error message</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.NewsletterTest@1afd44cb</td></tr>
+<tr>
+<td title='com.automation.tests.NewsletterTest.testErrorClearsOnValidInput()'><b>testErrorClearsOnValidInput</b><br>Test class: com.automation.tests.NewsletterTest<br>Test method: Error should clear when valid email typed after error</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.NewsletterTest@1afd44cb</td></tr>
+<tr>
+<td title='com.automation.tests.NewsletterTest.testDismissReturnsToSignupCard()'><b>testDismissReturnsToSignupCard</b><br>Test class: com.automation.tests.NewsletterTest<br>Test method: Dismiss button should return to signup card</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.NewsletterTest@1afd44cb</td></tr>
+</table><p>
+</body>
+</html>

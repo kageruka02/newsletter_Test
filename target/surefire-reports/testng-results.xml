@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-12T19:29:29 CAT" name="NewsletterTestSuite" finished-at="2026-05-12T19:29:59 CAT" duration-ms="30648">
+    <groups>
+      <group name="regression">
+        <method signature="NewsletterTest.testErrorClearsOnValidInput()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" name="testErrorClearsOnValidInput" class="com.automation.tests.NewsletterTest"/>
+        <method signature="NewsletterTest.testErrorMessageText()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" name="testErrorMessageText" class="com.automation.tests.NewsletterTest"/>
+        <method signature="NewsletterTest.testInvalidEmailSetsErrorStyle()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" name="testInvalidEmailSetsErrorStyle" class="com.automation.tests.NewsletterTest"/>
+        <method signature="NewsletterTest.testSignupCardHiddenAfterSubscribe()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" name="testSignupCardHiddenAfterSubscribe" class="com.automation.tests.NewsletterTest"/>
+        <method signature="NewsletterTest.testSuccessCardShowsCorrectEmail()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" name="testSuccessCardShowsCorrectEmail" class="com.automation.tests.NewsletterTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="NewsletterTest.testDismissReturnsToSignupCard()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" name="testDismissReturnsToSignupCard" class="com.automation.tests.NewsletterTest"/>
+        <method signature="NewsletterTest.testEmptyEmailShowsError()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" name="testEmptyEmailShowsError" class="com.automation.tests.NewsletterTest"/>
+        <method signature="NewsletterTest.testInvalidEmailShowsError()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" name="testInvalidEmailShowsError" class="com.automation.tests.NewsletterTest"/>
+        <method signature="NewsletterTest.testSuccessCardHiddenOnLoad()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" name="testSuccessCardHiddenOnLoad" class="com.automation.tests.NewsletterTest"/>
+        <method signature="NewsletterTest.testValidEmailShowsSuccessCard()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" name="testValidEmailShowsSuccessCard" class="com.automation.tests.NewsletterTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-05-12T19:29:29 CAT" name="Newsletter Tests" finished-at="2026-05-12T19:29:59 CAT" duration-ms="30648">
+      <class name="com.automation.tests.NewsletterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:29 CAT" name="setUp" finished-at="2026-05-12T19:29:32 CAT" duration-ms="3293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDismissReturnsToSignupCard()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:32 CAT" name="testDismissReturnsToSignupCard" description="Dismiss button should return to signup card" finished-at="2026-05-12T19:29:32 CAT" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDismissReturnsToSignupCard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:32 CAT" name="tearDown" finished-at="2026-05-12T19:29:32 CAT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:32 CAT" name="setUp" finished-at="2026-05-12T19:29:35 CAT" duration-ms="2623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyEmailShowsError()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:35 CAT" name="testEmptyEmailShowsError" description="Empty email should show error message" finished-at="2026-05-12T19:29:35 CAT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyEmailShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:35 CAT" name="tearDown" finished-at="2026-05-12T19:29:35 CAT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:35 CAT" name="setUp" finished-at="2026-05-12T19:29:38 CAT" duration-ms="2352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorClearsOnValidInput()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:38 CAT" name="testErrorClearsOnValidInput" description="Error should clear when valid email typed after error" finished-at="2026-05-12T19:29:38 CAT" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorClearsOnValidInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:38 CAT" name="tearDown" finished-at="2026-05-12T19:29:38 CAT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:38 CAT" name="setUp" finished-at="2026-05-12T19:29:41 CAT" duration-ms="2506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorMessageText()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:41 CAT" name="testErrorMessageText" description="Error message text should be correct" finished-at="2026-05-12T19:29:41 CAT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessageText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:41 CAT" name="tearDown" finished-at="2026-05-12T19:29:41 CAT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:41 CAT" name="setUp" finished-at="2026-05-12T19:29:44 CAT" duration-ms="2799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidEmailSetsErrorStyle()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:44 CAT" name="testInvalidEmailSetsErrorStyle" description="Invalid email should put input in error style" finished-at="2026-05-12T19:29:44 CAT" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailSetsErrorStyle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:44 CAT" name="tearDown" finished-at="2026-05-12T19:29:44 CAT" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:44 CAT" name="setUp" finished-at="2026-05-12T19:29:47 CAT" duration-ms="2560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidEmailShowsError()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:47 CAT" name="testInvalidEmailShowsError" description="Invalid email should show error message" finished-at="2026-05-12T19:29:47 CAT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:47 CAT" name="tearDown" finished-at="2026-05-12T19:29:47 CAT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:47 CAT" name="setUp" finished-at="2026-05-12T19:29:50 CAT" duration-ms="2560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignupCardHiddenAfterSubscribe()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:50 CAT" name="testSignupCardHiddenAfterSubscribe" description="Signup card should be hidden after subscribe" finished-at="2026-05-12T19:29:50 CAT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignupCardHiddenAfterSubscribe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:50 CAT" name="tearDown" finished-at="2026-05-12T19:29:50 CAT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:50 CAT" name="setUp" finished-at="2026-05-12T19:29:52 CAT" duration-ms="2368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessCardHiddenOnLoad()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:52 CAT" name="testSuccessCardHiddenOnLoad" description="Success card should be hidden on page load" finished-at="2026-05-12T19:29:52 CAT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessCardHiddenOnLoad -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:52 CAT" name="tearDown" finished-at="2026-05-12T19:29:53 CAT" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:53 CAT" name="setUp" finished-at="2026-05-12T19:29:56 CAT" duration-ms="3060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessCardShowsCorrectEmail()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:56 CAT" name="testSuccessCardShowsCorrectEmail" description="Success card should display the submitted email" finished-at="2026-05-12T19:29:56 CAT" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessCardShowsCorrectEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:56 CAT" name="tearDown" finished-at="2026-05-12T19:29:57 CAT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:57 CAT" name="setUp" finished-at="2026-05-12T19:29:59 CAT" duration-ms="2445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidEmailShowsSuccessCard()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:59 CAT" name="testValidEmailShowsSuccessCard" description="Valid email should show success card" finished-at="2026-05-12T19:29:59 CAT" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidEmailShowsSuccessCard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.NewsletterTest@1afd44cb]" started-at="2026-05-12T19:29:59 CAT" name="tearDown" finished-at="2026-05-12T19:29:59 CAT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.NewsletterTest -->
+    </test> <!-- Newsletter Tests -->
+  </suite> <!-- NewsletterTestSuite -->
+</testng-results>
