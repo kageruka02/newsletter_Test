@@ -39,7 +39,6 @@ jobs:
       # Step 5 — Run tests in headless mode (no display on server)
       - name: Run Selenium Tests
         run: mvn test -Dheadless=true
-        working-directory: newsletter-tests
 
       # Step 6 — Upload TestNG report as artifact (visible in GitHub Actions)
       - name: Upload Test Reports
@@ -47,7 +46,7 @@ jobs:
         if: always() # upload even if tests fail
         with:
           name: testng-reports
-          path: newsletter-tests/target/surefire-reports/
+          path: ./target/surefire-reports/
 
       # Step 7 — Send email notification on failure
       - name: Send failure notification
