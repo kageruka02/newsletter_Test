@@ -56,7 +56,7 @@ public class NewsletterTest {
         DriverManager.quitDriver();
     }
 
-    // ── Smoke Tests ──────────────────────────────────────────────
+    // ── Smoke Tests ───────────────────────────────────────────
 
     /**
      * TC1 — Valid email should show the success card.
